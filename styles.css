@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    background: rgb(194, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .profile{
+    background: white;
+    width:300px;
+    height: auto;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);   
+}
+
+.profile-pic{
+    width:100px;
+}
+
+p{
+    font-size:1.2rem;
+}
+
+.skills p{
+    display: inline-block;
+    padding:10px;
+    color:rgb(1, 20, 20) ;
+    background-color: bisque;
+    margin-top: 0;
+    border-radius: 10px;
+}
+
+.linkedin{
+    width:30px;
+    height: auto;
+}
+
+.github{
+     width:30px;
+    height: auto;
+}
